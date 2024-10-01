@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{82E252B5-65E2-30F9-5BAF-08764A9D0AFC}</ProjectGuid>
+    <ProjectGuid>{39A37DA6-E1EF-93B6-316A-DF8AF54B833D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -914,87 +914,87 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{ED66D3A9-2D46-46EC-AA99-33B12703AFE8}</Project>
+      <Project>{CB9CD4A9-ACD7-CAD0-1660-0865C81A83AB}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{B2879336-6106-FD02-4BBE-C288F7856243}</Project>
+      <Project>{B52B1549-7720-F837-9D3F-447554AD6B12}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
-      <Project>{F655C74F-05AF-C8E8-903E-A7C80886128D}</Project>
+      <Project>{07061A05-A716-7932-2D56-AEB15D2035A3}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{F1816D34-1BF2-EEEA-54D0-36FAFFA2A2DD}</Project>
+      <Project>{FA48CCCB-6D1E-7DC0-1B21-86066EFB49A4}</Project>
       <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
-      <Project>{2A0DBD7F-6A32-606F-092F-3666292420AF}</Project>
+      <Project>{3516D853-559C-AB91-9371-7F36A9368FF1}</Project>
       <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
-      <Project>{9051C194-BC69-EFA8-5252-719AE3CF24B9}</Project>
+      <Project>{3A73537C-7E45-1172-2E85-6E1442AB301C}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
-      <Project>{B4FBBF98-D6F6-68F1-DD68-2854191EED97}</Project>
+      <Project>{25BE9678-CA30-A1D9-EEE3-2B638FD1F6ED}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{B087E223-FBC9-1373-91AF-797441F4D279}</Project>
+      <Project>{473EA37D-195E-1D8E-4895-C0A3AAA79D29}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{0F9B44E1-5075-C145-A95E-7199F7562DE2}</Project>
+      <Project>{CC7D1125-396C-1B91-EB14-681627F98D51}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{958C91C3-2090-C70C-F07F-38003CFB38AC}</Project>
+      <Project>{EAEF7259-7848-8452-792E-5EC33D923898}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{684C200C-9B04-A611-AB46-152A985D85B1}</Project>
+      <Project>{950EE959-7533-0C10-6970-1E0AC327D581}</Project>
       <Name>Unity.VisualScripting.Shared.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{F4165276-F8FE-2D10-4267-A69F365E24C8}</Project>
+      <Project>{A74F201D-E26B-82B7-E301-C1BC4CEECE6E}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{CAF6C4E9-4DCA-0515-08EA-0C7A0042C2FE}</Project>
+      <Project>{AC835D08-2C3A-C396-7505-757441189896}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{A0CDCE2E-C8F9-2BBE-62A3-8F1C4140BBDB}</Project>
+      <Project>{07BB00A0-2D67-89BF-CF62-780FF9FE1B30}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{669D10CD-C9A5-4849-E577-6D9339873CBA}</Project>
+      <Project>{AB2DBEDD-3C16-F9D7-9B2E-CAEA1BBC665C}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{1C2FE8E4-8255-5071-8AAE-524D078C542C}</Project>
+      <Project>{4937FEFB-516F-5FAC-AE3C-83A8CB440703}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{8D31098B-BECC-5968-C587-7301F1AE4366}</Project>
+      <Project>{BDD92A85-B2FC-BDBC-9183-EFAB14DE7055}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{74ADB303-088A-98E2-D928-BE3254149EE5}</Project>
+      <Project>{69EEA3B2-8656-394C-6CB0-6D0378B42ABB}</Project>
       <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{6E84690B-050A-9E4A-5355-7FC798AEF273}</Project>
+      <Project>{31B388B4-A04D-0F50-7483-E7B8C4C92192}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{AC67144E-1E06-5BA0-AAE6-280705795A18}</Project>
+      <Project>{E616A39D-FEB3-F9AA-9761-829E670DE513}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{9D6EA2B4-9094-A1D4-F978-CA0AA0E8C01A}</Project>
+      <Project>{A843734C-CAE2-69A6-9750-A115E091ABDC}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
   </ItemGroup>
