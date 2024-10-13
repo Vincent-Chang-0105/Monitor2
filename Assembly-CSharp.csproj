@@ -962,6 +962,10 @@
       <Project>{3516D853-559C-AB91-9371-7F36A9368FF1}</Project>
       <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
+      <Project>{E2A4F6F9-587B-6636-990D-B4B3309A81CF}</Project>
+      <Name>Unity.Postprocessing.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
       <Project>{3A73537C-7E45-1172-2E85-6E1442AB301C}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor</Name>
@@ -970,13 +974,13 @@
       <Project>{25BE9678-CA30-A1D9-EEE3-2B638FD1F6ED}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{E2A4F6F9-587B-6636-990D-B4B3309A81CF}</Project>
-      <Name>Unity.Postprocessing.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
       <Project>{473EA37D-195E-1D8E-4895-C0A3AAA79D29}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
+      <Project>{E3B5AA17-999E-9FC9-B1C4-A7858E6CC42C}</Project>
+      <Name>Unity.Postprocessing.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
       <Project>{CC7D1125-396C-1B91-EB14-681627F98D51}</Project>
@@ -989,10 +993,6 @@
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{950EE959-7533-0C10-6970-1E0AC327D581}</Project>
       <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{E3B5AA17-999E-9FC9-B1C4-A7858E6CC42C}</Project>
-      <Name>Unity.Postprocessing.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
       <Project>{A74F201D-E26B-82B7-E301-C1BC4CEECE6E}</Project>

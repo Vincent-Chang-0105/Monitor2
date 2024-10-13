@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class KeyHintScript : MonoBehaviour
 {
-    public GameObject hintObject;  // Reference to the game object to hide
-    public Vector3 targetPosition; // Position to lerp to (should be left of the current position)
-    public float moveDuration = 2.0f;  // Duration for the lerp movement
+    public CanvasGroup hintObject;  // Reference to the CanvasGroup for fading
+    public float fadeDuration = 2.0f;  // Duration for the fade-out
 
     // Start is called before the first frame update
     void Start()
@@ -14,27 +13,26 @@ public class KeyHintScript : MonoBehaviour
         StartCoroutine(HideHintAfterDelay()); // Start the hiding process
     }
 
-    // Coroutine that waits 5 seconds then hides the object
+    // Coroutine that waits 5 seconds then fades the object
     IEnumerator HideHintAfterDelay()
     {
         yield return new WaitForSeconds(5f);  // Wait for 5 seconds
-        StartCoroutine(LerpToLeft());  // Start lerping the object to the left
+        StartCoroutine(FadeOutHint());  // Start fading the object
     }
 
-    // Coroutine to smoothly move the GameObject to the left using Lerp
-    IEnumerator LerpToLeft()
+    // Coroutine to smoothly fade out the CanvasGroup alpha
+    IEnumerator FadeOutHint()
     {
-        Vector3 startPosition = hintObject.transform.position;
         float elapsedTime = 0f;
 
-        while (elapsedTime < moveDuration)
+        while (elapsedTime < fadeDuration)
         {
-            hintObject.transform.position = Vector3.Lerp(startPosition, targetPosition, elapsedTime / moveDuration);
+            hintObject.alpha = Mathf.Lerp(1f, 0f, elapsedTime / fadeDuration);
             elapsedTime += Time.deltaTime;
             yield return null;  // Wait for the next frame
         }
 
-        // Ensure the object reaches the target position
-        hintObject.transform.position = targetPosition;
+        // Ensure the object is completely faded out
+        hintObject.alpha = 0f;
     }
 }
