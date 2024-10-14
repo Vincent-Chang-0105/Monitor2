@@ -6,15 +6,33 @@ public class LeverPull : MonoBehaviour
 {
     [SerializeField] private float interactDist = 0.6f;
 
+    private LeverTrigger currentLeverTrigger;
+
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && Physics.Raycast(transform.position, transform.forward, out var hit, interactDist))
+        // Perform a raycast to check if we are within interaction distance
+        if (Physics.Raycast(transform.position, transform.forward, out var hit, interactDist))
         {
-            // Look for ButtonTrigger component
-            if (hit.collider.gameObject.TryGetComponent(out LeverTrigger leverPull))
+            // Look for LeverTrigger component
+            if (hit.collider.gameObject.TryGetComponent(out LeverTrigger leverTrigger))
             {
-                leverPull.PullLever();
+                // Show interaction prefab if we're in range
+                leverTrigger.ShowInteractionIcon();
+
+                // Check for player input
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    leverTrigger.PullLever();
+                }
+
+                currentLeverTrigger = leverTrigger;
             }
+        }
+        else if (currentLeverTrigger != null)
+        {
+            // Hide the interaction icon if the player moves out of range
+            currentLeverTrigger.HideInteractionIcon();
+            currentLeverTrigger = null;
         }
     }
 }
